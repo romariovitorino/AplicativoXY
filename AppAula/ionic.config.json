@@ -1,0 +1,7 @@
+{
+  "name": "AppAula",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
