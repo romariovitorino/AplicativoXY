@@ -8,6 +8,8 @@ export class AppComponent {
   public appPages = [
     { title: 'Navegação', url: '/navegacao', icon: 'code' },
     { title: 'Botões', url: '/botao', icon: 'construct' },
+    { title: 'Alerta', url: '/alert', icon: 'alert-circle' },
+
 
 
   ];

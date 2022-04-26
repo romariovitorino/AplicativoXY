@@ -23,11 +23,17 @@ const routes: Routes = [
     path: 'botao',
     loadChildren: () => import('./pages/botao/botao.module').then( m => m.BotaoPageModule)
   },
+  {
+    path: 'alert',
+    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
+  },
 
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  }
+  },
+
+
 ];
 
 @NgModule({
